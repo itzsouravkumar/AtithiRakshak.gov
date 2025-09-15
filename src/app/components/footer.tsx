@@ -53,15 +53,21 @@ export default function Footer() {
             {/* Download App + Contact */}
             <div className="grid md:grid-cols-2 gap-12 max-w-7xl mx-auto px-6 lg:px-12 py-12">
                 {/* Download App */}
-                <div>
-                    <h3 className="text-xl font-bold text-blue-900 mb-4">Download App</h3>
-                    <p className="text-gray-700 mb-3">Available on :</p>
-                    <div className="flex items-center space-x-4">
-                        <img src="/assets/playstore.svg" alt="Play Store" className="w-10" />
-                        <img src="/assets/appstore.svg" alt="App Store" className="w-10" />
+                <div className="flex flex-row items-center md:items-start">
+                    <div>
+                        <h3 className="text-xl font-bold text-blue-900 mb-4">Download App</h3>
+                        <p className="text-gray-700 mb-3">Available on :</p>
+                        <div className="flex items-center space-x-4">
+                            <img src="/assets/playstore.svg" alt="Play Store" className="w-10" />
+                            <img src="/assets/appstore.svg" alt="App Store" className="w-10" />
+                        </div>
+                        <div className="flex space-x-4 mt-4">
+                            <img src="/assets/qr.svg" alt="QR 1" className="w-16 h-16" />
+                        </div>
                     </div>
-                    <div className="flex space-x-4 mt-4">
-                        <img src="/assets/qr.svg" alt="QR 1" className="w-16 h-16" />
+                    {/* App interface demo image */}
+                    <div className="ml-2 hidden md:block">
+                        <img src="/assets/mockup.svg" alt="App Demo" className="w-48 h-48 object-contain" />
                     </div>
                 </div>
 
