@@ -123,7 +123,7 @@ export default function Homepage() {
           What is Atithi Rakshak?
         </h1>
         <p className="text-center mx-4 md:mx-20 lg:mx-40 mb-8">
-          Atithi Rakshak is an initiative by the Government of India to ensure
+          Atithi Rakshak is an initiative to ensure
           the safety and security of tourists across the country. The platform
           provides real-time assistance, emergency services, and essential
           information to travelers, enhancing their overall experience and
