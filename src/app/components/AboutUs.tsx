@@ -43,15 +43,6 @@ export default function AboutUs() {
 
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 lg:grid-cols-6 gap-6">
           <div className="bg-white rounded-lg border shadow-md p-6 flex flex-col items-center text-center">
-            <span className="text-blue-700 text-4xl mb-4">🆔</span>
-            <h3 className="font-semibold">Digital Tourist ID</h3>
-            <p className="text-sm text-gray-600 mt-2">
-              Secure blockchain-based IDs store KYC, itinerary, and emergency
-              details. Tamper-proof & private.
-            </p>
-          </div>
-
-          <div className="bg-white rounded-lg border shadow-md p-6 flex flex-col items-center text-center">
             <span className="text-blue-700 text-4xl mb-4">📱</span>
             <h3 className="font-semibold">Mobile App with SOS</h3>
             <p className="text-sm text-gray-600 mt-2">
@@ -59,6 +50,18 @@ export default function AboutUs() {
               live location instantly.
             </p>
           </div>
+
+           <div className="bg-white rounded-lg border shadow-md p-6 flex flex-col items-center text-center">
+            <span className="text-blue-700 text-4xl mb-4">📊</span>
+            <h3 className="font-semibold">Detailed Dashboard</h3>
+            <p className="text-sm text-gray-600 mt-2">
+              Real-time heatmaps, alerts, and clusters help authorities act
+              quickly.
+            </p>
+          </div>
+
+        
+
 
           <div className="bg-white rounded-lg border shadow-md p-6 flex flex-col items-center text-center">
             <span className="text-blue-700 text-4xl mb-4">🔍</span>
@@ -69,14 +72,15 @@ export default function AboutUs() {
             </p>
           </div>
 
-          <div className="bg-white rounded-lg border shadow-md p-6 flex flex-col items-center text-center">
-            <span className="text-blue-700 text-4xl mb-4">📊</span>
-            <h3 className="font-semibold">Detailed Dashboard</h3>
+            <div className="bg-white rounded-lg border shadow-md p-6 flex flex-col items-center text-center">
+            <span className="text-blue-700 text-4xl mb-4">🛡️</span>
+            <h3 className="font-semibold">Blockchain based Tourist ID</h3>
             <p className="text-sm text-gray-600 mt-2">
-              Real-time heatmaps, alerts, and clusters help authorities act
-              quickly.
+              Secure blockchain-based IDs store KYC, itinerary, and emergency
+              details. Tamper-proof & private.
             </p>
           </div>
+
 
           <div className="bg-white rounded-lg border shadow-md p-6 flex flex-col items-center text-center">
             <span className="text-blue-700 text-4xl mb-4">🌐</span>
